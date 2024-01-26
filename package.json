@@ -1,0 +1,17 @@
+{
+  "name": "pandocjs",
+  "version": "0.1.0",
+  "description": "A wrapper around the pandoc tool.",
+  "repository": "git@github.com:yvonneyuinfj/pandocjs.git",
+  "author": "yvonneyu <yvonneyuinfj@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "pandocjs",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "execa": "^8.0.1"
+  },
+  "devDependencies": {}
+}
